@@ -1,0 +1,216 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header-area {
+   background: rgba(0,0,0,0.8) url(images/women-1.jpg);
+   background-position: center center;
+   background-repeat: no-repeat; 
+   background-size: cover;
+   background-blend-mode: darken;
+    width: 100%;
+    height: 800px;
+}
+.main-header{
+    display: grid;
+    grid-template-columns: 15% 75%;
+    align-items: end;
+    justify-items: end;
+    padding: 30px 0;
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 30px;
+}
+.menu-area{
+    
+}
+.menu-area ul{
+    list-style: none;
+}
+.menu-area ul li{
+display: inline-block;
+padding: 0 20px;
+}
+.menu-area ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.left{
+    color: white;
+    position: absolute;
+    top: 55%;
+    left: 5%;
+    z-index: 2;
+}
+.left h1{
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: bold;
+}
+.left p{
+    font-size: 20px;
+    line-height: 1.5em;
+    word-spacing: .8px;
+}
+.left a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 25px 30px;
+    border: none;
+    border-radius: 4px;
+    background: #BD4ED4;
+    color: white;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.right{
+    position: absolute;
+    top:40%;
+    right: 10%;
+    background: white;
+    color: black;
+    text-align: center;
+    padding: 30px 60px;
+}
+.right input{
+    display: block;
+    padding: 15px 135px 15px 10px;
+    margin: 15px 0;
+    border: none;
+    border-radius: 4px;
+    background: #F3F3F3;
+    text-align: left;
+}
+.right input[type=submit]{
+    display: block;
+    padding: 20px 127px;
+    margin: 15px 0;
+    border: none;
+    border-radius: 4px;
+    background: #BD4ED4;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.footer-area{
+    background:#101010;
+    color: white;
+    padding: 50px 0;
+}
+.main-footer{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    margin: 0 3% 0 5%;
+}
+.social-icon{
+    padding: 30px 0;
+}
+.social-icon h1{
+    font-size: 2em;
+    text-transform: capitalize;
+    margin:20px 0;
+}
+.social-icon h3{
+    text-transform: capitalize;
+    color: #B539CF;
+}
+.social-icon p{
+    font-size: 20px;
+    line-height: 1.5em;
+    word-spacing: .8px;
+    color: #9E9E9E;
+    margin:20px 0;
+    text-align: justify;
+    padding: 30px 0;
+}
+.icons i{
+    border:2px solid #B539CF;
+    border-radius: 50%;
+    width:20px;
+    height: 20px;
+    padding: 10px;
+    margin: 0 3px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.messege-area input:nth-child(1),
+.messege-area input:nth-child(2){
+    display: inline;
+    border-top:none;
+    border-left:none;
+    border-right: none;
+    border-bottom: 1px solid #414141;
+    background: transparent;
+    padding: 20px 150px 20px 5px;
+    color: #6C757D;
+    font-size: 20px;
+    margin: 20px 0;
+}
+.messege-area input:nth-child(3){
+    display: block;
+    background: transparent;
+    border-top:none;
+    border-left:none;
+    border-right: none;
+    border-bottom: 1px solid #414141;
+    margin: 20px 0;
+    padding: 20px 522px 20px 5px;
+    color: #6C757D;
+    font-size: 20px;
+}
+textarea{
+    display: block;
+    background: transparent;
+    border-top:none;
+    border-left:none;
+    border-right: none;
+    border-bottom: 1px solid #414141;
+    margin: 20px 0;
+    padding: 30px 480px 30px 5px;
+    color: #6C757D;
+    font-size: 20px;
+    margin: 20px 0;
+}
+.messege-area input[type=submit]{
+    display: block;
+    padding: 20px 80px;
+    margin: 15px 0;
+    border: none;
+    border-radius: 4px;
+    background: #BD4ED4;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.footer-end{
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    background: black;
+    color: white;
+    padding: 15px 0;
+}
+span{
+    color: #4F4F4F;
+}
+.footer-menu ul{
+    list-style: none;
+}
+.footer-menu ul li{
+    display: inline;
+    margin: 0 10px;
+}
+.footer-menu ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+}
